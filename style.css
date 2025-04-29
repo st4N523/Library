@@ -1,0 +1,114 @@
+/* Responsible for the full background */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-photo/blurred-bookshelf-library-room-your-background-design_1484-1305.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    background-image: url("images/library.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+}
+
+table.search, table.search th {
+    text-align: left; 
+    width: 100%;
+}
+
+table.result td, table.result th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 4px;
+}
+
+/* Input boxes across search */
+input[type=text] {
+    width: 85%;
+}
+
+/* Ensure all buttons have the same width, padding, and margin */
+.btn-edit, .btn-delete {
+    width: 80px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn-edit {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-edit:hover, .btn-delete:hover {
+    opacity: 0.8;
+}
+
+/* Main page of box */
+.box {
+    height: 300px;
+    width: 450px;
+    background-color: #030002;
+    margin: 80px auto;
+    opacity: .7;
+    color: white;
+}
+
+/* Top row header Bar */ 
+.headerBar {
+    position: sticky; 
+    top: 0;
+    background-color: rgb(172, 78, 78);
+    color: #CDCDCD; 
+    margin-bottom: 20px;  
+    padding-left: 10px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #CDCDCD;
+    text-decoration: none;
+    width: 220px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+a:hover {
+    background: grey;
+}
+
+/* Sections boxes */
+.divSection {
+    border: solid 1px black; 
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
